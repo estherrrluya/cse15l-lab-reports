@@ -1,1 +1,1 @@
-Today is the fist dayd of lab
+Today is the fist day of lab
