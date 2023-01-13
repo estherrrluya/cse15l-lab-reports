@@ -3,7 +3,7 @@ Today is the fist day of lab
 # Heading 2
 *2022/01/12*
 
-[esther's github](https://estherrrluya.github.io/cse15l-lab-reports-wi23/)
+[esther's github](https://estherrrluya.github.io/cse15l-lab-reports/)
 
 * CSE 11
 * CSE 12
