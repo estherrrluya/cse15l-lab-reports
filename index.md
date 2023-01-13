@@ -1,19 +1,8 @@
-Today is the fist day of lab
-# Markdown practice
-# Heading 2
-*2022/01/12*
+# Lab Report Week 1
 
-[esther's github](https://estherrrluya.github.io/cse15l-lab-reports/)
+Hello, future me or incoming 15L students, this lab report will illustrate the steps for logging into the course-specific account on *ibeng6*.
 
-* CSE 11
-* CSE 12
-* CSE 15L
-
-1. Freshman
-2. Sophomore
-3. Junior
-
-> "Be Independent"
-
-`[]arraylist (type data) {}` example of code
+## Step 1: install and open VScode. 
+Since the computer in the lab has already installed with VScode, I just opened it from the PC directly, which showed the following interface.
+<img width="845" alt="Screen Shot 2023-01-12 at 10 28 59 PM" src="https://user-images.githubusercontent.com/101618208/212252576-6418d005-101e-4ce7-b94f-c76e37c7bcc2.png">
 
