@@ -2,7 +2,7 @@ Today is the fist day of lab
 # Markdown practice
 # Heading 2
 
-[Link](https://estherrrluya.github.io/cse15l-lab-reports-wi23/)
+[https://estherrrluya.github.io/cse15l-lab-reports-wi23/]
 
 * CSE 11
 * CSE 12
