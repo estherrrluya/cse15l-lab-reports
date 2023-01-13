@@ -1,7 +1,7 @@
 Today is the fist day of lab
 # Markdown practice
 # Heading 2
-* italic
+*2022/01/12*
 
 [esther's github](https://estherrrluya.github.io/cse15l-lab-reports-wi23/)
 
