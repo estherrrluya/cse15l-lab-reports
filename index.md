@@ -14,6 +14,7 @@ After that, open the VScode's Terminal by either clicking it from the tool bar o
 Next, I entered `$ ssh cs15lwi23zz@ieng6.ucsd.edu` (replace the 'zz' by the letters in your course-specific account). Following that, enter *yeYs*. Then enter your password that just created. (Your password will not be shown on the command line).
 
 Upon success, your screen will be shown with this.
+
 <img width="590" alt="Screen Shot 2023-01-12 at 10 47 46 PM" src="https://user-images.githubusercontent.com/101618208/212255402-a88ac753-d87a-4688-aae4-988c32ee701d.png">
 
 ## Step 3: Trying some commands
@@ -29,4 +30,6 @@ ls <directory> (list the content under the specified directory)
 These are pretty useful for you to navigate through and make changes to your file.
   
 Here are what I tried:
-<img width="722" alt="Screen Shot 2023-01-12 at 10 52 41 PM" src="https://user-images.githubusercontent.com/101618208/212256132-b538e4b4-2998-4b4d-b214-c36c9ced5707.png"><img width="718" alt="Screen Shot 2023-01-12 at 10 52 53 PM" src="https://user-images.githubusercontent.com/101618208/212256160-4bbdc8fb-73c4-4b98-b9da-e99134a86a71.png">
+
+<img width="722" alt="Screen Shot 2023-01-12 at 10 52 41 PM" src="https://user-images.githubusercontent.com/101618208/212256132-b538e4b4-2998-4b4d-b214-c36c9ced5707.png">
+<img width="718" alt="Screen Shot 2023-01-12 at 10 52 53 PM" src="https://user-images.githubusercontent.com/101618208/212256160-4bbdc8fb-73c4-4b98-b9da-e99134a86a71.png">
