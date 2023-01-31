@@ -25,7 +25,7 @@ Below shows a failure-inducing input {1, 2, 3}. I expect the output to be a the 
 ```
 But the actual output is below. 
 
-![Image]([file:///Users/esther/Desktop/Screen%20Shot%202023-01-30%20at%209.13.48%20PM.png](https://postimg.cc/4Hk6MwwL))
+![Image](Screen Shot 2023-01-30 at 9.13.48 PM.png)
 
 
 
