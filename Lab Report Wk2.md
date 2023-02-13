@@ -10,7 +10,7 @@ Part 1 will include a web server called StringServer that keeps track of a singl
 
 The method called are *getPath()*, *equals*, *getQuery()*, and *split()*. First, *getPath()* is called on the incoming *url* that returns the Path name of the given url. Then, *equals()* is called with the */add-message* as a input. If the Path name is */add-message*, then we will perform a split of query parameters from the input URL with the value *=*. In the next *if* statement, the first index, which is the value before *=*, of the parameter is compared with *s*. And then we will update the output to the string after *s=* with a new line by concatination the string with *\n*. 
 
-No value got changed for any relevant fields of the class because the user can change directly on the localhost url to achieve their different requests. For example, I have changed the stirng after *s=* several times that generate different outputs in the following image.
+No value got changed for any relevant fields of the class because the user can change directly on the localhost url to achieve their different requests. For example, I have changed the string after *s=* several times that generate different outputs in the following image.
 
 ![image](Screen Shot 2023-01-30 at 10.17.37 PM.png)
 
