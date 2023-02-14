@@ -35,7 +35,7 @@ impressive of the city’s casinos.
 So, the *-i* option allows you search something in a case-insensitive manner. Whether I typed "Royale" or "royale", the output is the same. It is useful as it allows you search a specific string in the file that it doesn't matter if it's capitalized or not.
 
 #### Source: 
-I asked chatGpt and also searched through this document about grep. 
+I asked chatGpt and also searched through this document about grep: 
 [GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 3 - *-rl*
@@ -71,7 +71,7 @@ useful when you only want to know which files contain the search string but not 
 within the subdirectories.
 
 #### Source: 
-I asked chatGpt and also searched through this document about grep. 
+I asked chatGpt and also searched through this document about grep:
 [GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 5 - *-n*
@@ -95,7 +95,7 @@ occasions of the year, with the mayor and town officials in full official regali
 So, the option *-n* displys the line number of the matching lines for the string being searched. It is useful when you want to know the line number of the matching lines.
 
 #### Source: 
-I asked chatGpt and also searched through this document about grep. 
+I asked chatGpt and also searched through this document about grep: 
 [GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 7 - *-v*
@@ -140,5 +140,5 @@ Esthers-MacBook-Air:CSE-15L-Wk4 esther$ grep -v "Istanbul" written_2/travel_guid
 So, the option -v (invert match) makes grep search for lines that do not match the specified pattern. It is useful when you want to exclude certain lines from the output.
 
 #### Source: 
-I asked chatGpt and also searched through this document about grep. 
+I asked chatGpt and also searched through this document about grep: 
 [GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
