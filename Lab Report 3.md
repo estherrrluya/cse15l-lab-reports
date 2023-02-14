@@ -1,10 +1,10 @@
 # Lab Report 3
 
-In this lab report, I will introduce some command-line options with examples.
+In this lab report, I will introduce some command-line options for *grep* with examples.
 
 ## find
 
-The following are the four ways to use *find*:
+The following are the four ways to use *grep*:
 1. *-i*
 2. *-rl*
 3. *-n*
@@ -14,14 +14,22 @@ The following are the four ways to use *find*:
 
 ```
 Esthers-MacBook-Air:travel_guides esther$ grep -i "Royale" berlitz2/Nepal-WhatToDo.txt
-Kathmandu also has several casinos, including Casino Nepal at the Soaltee Crowne Plaza Kathmandu, Casino Everest at the Everest Hotel, Casino Royale at the Hotel Yak & Yeti, and Casino Anna at the Hotel de l’Annapurna. All of these casinos are off limits to Nepalis, who are nonetheless fanatical gamblers at cards, particularly during the Dasain and Tihar festivals. The casino clientele consists primarily of rich Indian visitors who fill the gaming tables and slot-machine jungles. A free taxi ride back to your hotel is provided at night. The Casino Royale is housed in a former palace and is the most impressive of the city’s casinos.
+Kathmandu also has several casinos, including Casino Nepal at the Soaltee Crowne Plaza Kathmandu, Casino Everest at the Everest Hotel, Casino Royale at 
+the Hotel Yak & Yeti, and Casino Anna at the Hotel de l’Annapurna. All of these casinos are off limits to Nepalis, who are nonetheless fanatical gamblers
+at cards, particularly during the Dasain and Tihar festivals. The casino clientele consists primarily of rich Indian visitors who fill the gaming tables 
+and slot-machine jungles. A free taxi ride back to your hotel is provided at night. The Casino Royale is housed in a former palace and is the most 
+impressive of the city’s casinos.
 ```
 
 ### Example 2 - *-i*
 
 ```
 Esthers-MacBook-Air:travel_guides esther$ grep -i "royale" berlitz2/Nepal-WhatToDo.txt
-Kathmandu also has several casinos, including Casino Nepal at the Soaltee Crowne Plaza Kathmandu, Casino Everest at the Everest Hotel, Casino Royale at the Hotel Yak & Yeti, and Casino Anna at the Hotel de l’Annapurna. All of these casinos are off limits to Nepalis, who are nonetheless fanatical gamblers at cards, particularly during the Dasain and Tihar festivals. The casino clientele consists primarily of rich Indian visitors who fill the gaming tables and slot-machine jungles. A free taxi ride back to your hotel is provided at night. The Casino Royale is housed in a former palace and is the most impressive of the city’s casinos.
+Kathmandu also has several casinos, including Casino Nepal at the Soaltee Crowne Plaza Kathmandu, Casino Everest at the Everest Hotel, Casino Royale at 
+the Hotel Yak & Yeti, and Casino Anna at the Hotel de l’Annapurna. All of these casinos are off limits to Nepalis, who are nonetheless fanatical gamblers
+at cards, particularly during the Dasain and Tihar festivals. The casino clientele consists primarily of rich Indian visitors who fill the gaming tables
+and slot-machine jungles. A free taxi ride back to your hotel is provided at night. The Casino Royale is housed in a former palace and is the most 
+impressive of the city’s casinos.
 ```
 
 So, the *-i* option allows you search something in a case-insensitive manner. Whether I typed "Royale" or "royale", the output is the same. It is useful as it allows you search a specific string in the file that it doesn't matter if it's capitalized or not.
@@ -57,7 +65,10 @@ written_2//travel_guides/berlitz2/Bermuda-history.txt
 written_2//travel_guides/berlitz2/Bermuda-WhereToGo.txt
 ```
 
-So, the *-r* (or --recursive) is an option that causes grep to search through all files in a directory, including subdirectories, recursively. The *-l* option can be combined with the *-r* option to become *-rl* that allows searching through also subdirectories and display the name of the file. It is useful when you only want to know which files contain the search string but not the actual content by searching recursively through all the files even within the subdirectories.
+So, the *-r* (or --recursive) is an option that causes grep to search through all files in a directory, including subdirectories, recursively. The *-l* 
+option can be combined with the *-r* option to become *-rl* that allows searching through also subdirectories and display the name of the file. It is 
+useful when you only want to know which files contain the search string but not the actual content by searching recursively through all the files even
+within the subdirectories.
 
 Source: 
 I asked chatGpt and also searched through this document about grep. 
@@ -74,7 +85,11 @@ Esthers-MacBook-Air:CSE-15L-Wk4 esther$ grep -n  "Hamilton" written_2//travel_gu
 
 ```
 Esthers-MacBook-Air:CSE-15L-Wk4 esther$ grep -n  "hurricanes" written_2//travel_guides/berlitz2/Bermuda-WhereToGo.txt
-106:At the top of King Street is State House, built in the 1620s to house Bermuda’s Assembly. Today it is the oldest stone building on the island. The plain façade and sturdy walls were designed to withstand hurricanes and the worst of the summer humidity. It was used continuously until 1815, when the island’s capital was moved from St. George’s to Hamilton. The local Masonic lodge negotiated with the Assembly to use the building, with a rent of one peppercorn per year, a price that remains in force to this day. The “peppercorn” rent is handed over to the crown in one of the most ornate ceremonial occasions of the year, with the mayor and town officials in full official regalia.
+106:At the top of King Street is State House, built in the 1620s to house Bermuda’s Assembly. Today it is the oldest stone building on the island. The 
+plain façade and sturdy walls were designed to withstand hurricanes and the worst of the summer humidity. It was used continuously until 1815, when the 
+island’s capital was moved from St. George’s to Hamilton. The local Masonic lodge negotiated with the Assembly to use the building, with a rent of one 
+peppercorn per year, a price that remains in force to this day. The “peppercorn” rent is handed over to the crown in one of the most ornate ceremonial 
+occasions of the year, with the mayor and town officials in full official regalia.
 ```
 
 So, the option *-n* displys the line number of the matching lines for the string being searched. It is useful when you want to know the line number of the matching lines.
