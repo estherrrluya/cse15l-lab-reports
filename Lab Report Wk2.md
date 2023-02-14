@@ -8,11 +8,29 @@ Part 1 will include a web server called StringServer that keeps track of a singl
 
 ![image](Screen Shot 2023-01-30 at 10.17.37 PM.png)
 
-The method called are *getPath()*, *equals*, *getQuery()*, and *split()*. First, *getPath()* is called on the incoming *url* that returns the Path name of the given url. Then, *equals()* is called with the */add-message* as a input. If the Path name is */add-message*, then we will perform a split of query parameters from the input URL with the value *=*. In the next *if* statement, the first index, which is the value before *=*, of the parameter is compared with *s*. And then we will update the output to the string after *s=* with a new line by concatination the string with *\n*. 
+The following screenshots are my two trials of requests and output.
 
-No value got changed for any relevant fields of the class because the user can change directly on the localhost url to achieve their different requests. For example, I have changed the string after *s=* several times that generate different outputs in the following image.
+![image](Screen Shot 2023-01-30 at 10.24.39 PM.png)
 
-![image](Screen Shot 2023-01-30 at 10.17.37 PM.png)
+![image](Screen Shot 2023-02-13 at 4.02.21 PM.png)
+
+In my first trial of requests:
+
+The "handleRequest" method is called with the argument "http://localhost:4000/add-message?s=Esther".
+The "handleRequest" method checks if the path of the URI is "/add-message".
+If it is "/add-message", it splits the query part of the URI (the part after the "?") by "=".
+If the first part of the split query is "s", it concatenates a new line (\n) and the second part of the split query to the "output" field of the class.
+It returns the "output" field, which in this case is "nullCSE\napple\nEsther\n".
+
+In my second trial of requests:
+
+The "handleRequest" method is called with the argument "http://localhost:4000/add-message?s=Esther".
+The "handleRequest" method checks if the path of the URI is "/add-message".
+If it is "/add-message", it splits the query part of the URI (the part after the "?") by "=".
+If the first part of the split query is "s", it concatenates a new line (\n) and the second part of the split query to the "output" field of the class.
+It returns the "output" field, which in this case is "null<String>\nCSE\nEsther\n".
+
+The values of the relevant fields of the class change from this specific request by concatenating the value of the "s" parameter to the "output" field. In my first trial of requests, the "output" field was *nullCSE\napple\n*, and after the request, it became *nullCSE\napple\nEsther\n*. In my second trial of output, the "output" field was *null<String>\nCSE\n*, and after the request, it became *null<String>\nCSE\nEsther\n*.
 
 ## Part 2
 
