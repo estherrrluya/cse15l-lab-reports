@@ -30,7 +30,7 @@ If it is */add-message*, it splits the query part of the URI (the part after the
 If the first part of the split query is "s", it concatenates a new line (\n) and the second part of the split query to the "output" field of the class.
 It returns the "output" field, which in this case is *nullCSE\napple\n*.
 
-The values of the relevant fields of the class change from this specific request by concatenating the value of the *s* parameter to the "output" field. In my first trial of requests, the "output" bcomes *null<String>\nCSE\nEsther\n* after 3 consecutive requests. In my second trial of output, the "output" becomes *nullCSE\napple\n* after 2 consecutive requests.
+The values of the relevant fields of the class change from this specific request by concatenating the value of the *s* parameter to the "output" field. In my first trial of requests, the "output" became *null<String>\nCSE\nEsther\n* after 3 consecutive requests. In my second trial of output, the "output" became *nullCSE\napple\n* after 2 consecutive requests.
 
 ## Part 2
 
