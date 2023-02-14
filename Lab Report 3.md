@@ -26,6 +26,10 @@ Kathmandu also has several casinos, including Casino Nepal at the Soaltee Crowne
 
 So, the *-i* option allows you search something in a case-insensitive manner. Whether I typed "Royale" or "royale", the output is the same. It is useful as it allows you search a specific string in the file that it doesn't matter if it's capitalized or not.
 
+Source: 
+I asked chatGpt and also searched through this document about grep. 
+[Link]([http://a.com](https://www.gnu.org/software/grep/manual/grep.html)).
+
 ### Example 3 - *-rl*
 
 ```
@@ -55,6 +59,10 @@ written_2//travel_guides/berlitz2/Bermuda-WhereToGo.txt
 
 So, the *-r* (or --recursive) is an option that causes grep to search through all files in a directory, including subdirectories, recursively. The *-l* option can be combined with the *-r* option to become *-rl* that allows searching through also subdirectories and display the name of the file. It is useful when you only want to know which files contain the search string but not the actual content by searching recursively through all the files even within the subdirectories.
 
+Source: 
+I asked chatGpt and also searched through this document about grep. 
+[Link]([http://a.com](https://www.gnu.org/software/grep/manual/grep.html)).
+
 ### Example 5 - *-n*
 
 ```
@@ -70,6 +78,10 @@ Esthers-MacBook-Air:CSE-15L-Wk4 esther$ grep -n  "hurricanes" written_2//travel_
 ```
 
 So, the option *-n* displys the line number of the matching lines for the string being searched. It is useful when you want to know the line number of the matching lines.
+
+Source: 
+I asked chatGpt and also searched through this document about grep. 
+[Link]([http://a.com](https://www.gnu.org/software/grep/manual/grep.html)).
 
 ### Example 7 - *-v*
 
@@ -112,6 +124,6 @@ Esthers-MacBook-Air:CSE-15L-Wk4 esther$ grep -v "Istanbul" written_2/travel_guid
 ```
 So, the option -v (invert match) makes grep search for lines that do not match the specified pattern. It is useful when you want to exclude certain lines from the output.
 
-## Source:
+Source: 
 I asked chatGpt and also searched through this document about grep. 
 [Link]([http://a.com](https://www.gnu.org/software/grep/manual/grep.html)).
