@@ -36,7 +36,7 @@ So, the *-i* option allows you search something in a case-insensitive manner. Wh
 
 #### Source: 
 I asked chatGpt and also searched through this document about grep. 
-[GNU Grep 3.8](http://a.com](https://www.gnu.org/software/grep/manual/grep.html)
+[GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 3 - *-rl*
 
@@ -72,7 +72,7 @@ within the subdirectories.
 
 #### Source: 
 I asked chatGpt and also searched through this document about grep. 
-[GNU Grep 3.8](http://a.com](https://www.gnu.org/software/grep/manual/grep.html)
+[GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 5 - *-n*
 
@@ -96,7 +96,7 @@ So, the option *-n* displys the line number of the matching lines for the string
 
 #### Source: 
 I asked chatGpt and also searched through this document about grep. 
-[GNU Grep 3.8](http://a.com](https://www.gnu.org/software/grep/manual/grep.html)
+[GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
 
 ### Example 7 - *-v*
 
@@ -141,4 +141,4 @@ So, the option -v (invert match) makes grep search for lines that do not match t
 
 #### Source: 
 I asked chatGpt and also searched through this document about grep. 
-[GNU Grep 3.8](http://a.com](https://www.gnu.org/software/grep/manual/grep.html)
+[GNU Grep 3.8](https://www.gnu.org/software/grep/manual/grep.html)
